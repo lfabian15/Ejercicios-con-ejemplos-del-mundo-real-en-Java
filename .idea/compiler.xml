@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/tienda_libros/src/main/java/gm/tienda_libros/vista/LibroForm.form" />
+      <file url="file://$PROJECT_DIR$/SistemaEstudiantesSpring/src/main/java/gm/estudiantes/EstudiantesApplication.java" />
+      <file url="file://$PROJECT_DIR$/SistemaEstudiantesSpring/src/main/java/gm/estudiantes/modelo/Estudiante.java" />
+      <file url="file://$PROJECT_DIR$/SistemaEstudiantesSpring/src/main/java/gm/estudiantes/repositorio/EstudianteRepositorio.java" />
+      <file url="file://$PROJECT_DIR$/SistemaEstudiantesSpring/src/main/java/gm/estudiantes/servicio/EstudianteServicio.java" />
+      <file url="file://$PROJECT_DIR$/SistemaEstudiantesSpring/src/main/java/gm/estudiantes/servicio/IEstudianteServicio.java" />
+      <file url="file://$PROJECT_DIR$/SistemaEstudiantesSpring/src/test/java/gm/estudiantes/EstudiantesApplicationTests.java" />
+      <file url="file://$PROJECT_DIR$/tienda_libros/src/test/java/gm/tienda_libros/TiendaLibrosApplicationTests.java" />
+      <file url="file://$PROJECT_DIR$/tienda_libros/src/main/java/gm/tienda_libros/vista/LibroForm.java" />
+      <file url="file://$PROJECT_DIR$/tienda_libros/src/main/java/gm/tienda_libros/TiendaLibrosApplication.java" />
+      <file url="file://$PROJECT_DIR$/tienda_libros/src/main/java/gm/tienda_libros/servicio/LibroServicio.java" />
+      <file url="file://$PROJECT_DIR$/tienda_libros/src/main/java/gm/tienda_libros/repositorio/LibroRepositorio.java" />
+      <file url="file://$PROJECT_DIR$/tienda_libros/src/main/java/gm/tienda_libros/modelo/Libro.java" />
+      <file url="file://$PROJECT_DIR$/tareas/src/test/java/gm/tareas/TareasApplicationTests.java" />
+      <file url="file://$PROJECT_DIR$/tareas/src/main/java/gm/tareas/TareasApplication.java" />
+      <file url="file://$PROJECT_DIR$/tareas/src/main/java/gm/tareas/presentacion/SistemasTareasFx.java" />
+      <file url="file://$PROJECT_DIR$/tareas/src/main/java/gm/tareas/repositorio/TareaRepositorio.java" />
+      <file url="file://$PROJECT_DIR$/tareas/src/main/java/gm/tareas/modelo/Tarea.java" />
+      <file url="file://$PROJECT_DIR$/tareas/src/main/java/gm/tareas/servicio/TareaServicio.java" />
+      <file url="file://$PROJECT_DIR$/tareas/src/main/java/gm/tareas/controlador/IndexControlador.java" />
+      <file url="file://$PROJECT_DIR$/tienda_libros/src/main/java/gm/tienda_libros/servicio/ILibroServicio.java" />
+      <file url="file://$PROJECT_DIR$/tareas/src/main/java/gm/tareas/servicio/ITareaServicio.java" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tareas" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tareas" options="-parameters" />
+    </option>
+  </component>
+</project>
