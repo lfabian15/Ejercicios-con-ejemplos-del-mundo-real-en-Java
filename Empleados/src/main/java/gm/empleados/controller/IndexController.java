@@ -19,7 +19,7 @@ public class IndexController {
     @Autowired
     EmpleadoService empleadoService;
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value="/", method = RequestMethod.GET)
     public String iniciar (ModelMap modelo){
         List<Empleado> empleados = empleadoService.listarEmpleados();
         empleados.forEach((empleado) -> logger.info(empleado.toString()));
